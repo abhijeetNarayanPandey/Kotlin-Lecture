@@ -1,0 +1,18 @@
+// #For Each 
+//Kotlin Daily Lecture
+fun main(){
+val people = listOf(
+    People("Abc"),
+People("Efg"),
+People("Hij")
+                    )
+/*
+for(p in people){
+println(p)
+}
+*/
+people.forEach{
+println(it)
+}
+}
+data class People(val name:String
